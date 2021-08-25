@@ -34,7 +34,7 @@ public class NonRaceProblem {
             while(true){
                 System.out.println(d);
                 try {
-                    this.sleep(1000);
+                    sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -56,9 +56,8 @@ public class NonRaceProblem {
                 System.out.println(num1 + num2);
                 randomNumbers();
                 try {
-                    this.sleep(500);
+                    sleep(500);
                 } catch (InterruptedException e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
             }
