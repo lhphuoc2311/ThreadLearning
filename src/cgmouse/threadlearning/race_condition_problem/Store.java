@@ -38,8 +38,9 @@ public class Store {
             result = a[0];// get the product at the front of line
             for(int i = 0; i < n - 1; i ++){
                 a[i] = a[i+1];
-                n--;
             }
+
+            n--;
         }
 
         try {
