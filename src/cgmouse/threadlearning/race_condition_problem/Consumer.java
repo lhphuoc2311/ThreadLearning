@@ -14,7 +14,7 @@ public class Consumer extends Thread {
             try{
                 long x = store.get();
                 if(x > 0){
-                    System.out.println("-- Product " + x + "is bought.");
+                    System.out.println("-- Product " + x + " is bought.");
                 }else{
                     System.out.println("Consumer is waiting fo new product");
                 }
